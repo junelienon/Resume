@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/pattern.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="container py-4">
+    <div class="d-flex flex-wrap align-items-center justify-content-between text-center text-md-start">
+        <div class="logo mb-3 mb-md-0">
+            June lienon <span>Salamanca</span>
+        </div>
+
+        <nav class="nav justify-content-center">
+            <a class="nav-link active" href="/">Home</a>
+            <a class="nav-link " href="/about">About</a>
+            <a class="nav-link" href="/portfolio">Portfolio</a>
+            <a class="nav-link" href="/contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<!-- index SECTION -->
+<section class="index py-5">
+    <div class="container">
+        <div class="row align-items-center gy-5">
+
+            <!-- Text Column -->
+            <div class="col-lg-7 col-md-12 text-center text-lg-start">
+                <p class="index">HELLO THERE, WELCOME TO MY SITE</p>
+                <h1 class="index-title">I’m <span class="highlight">Lienon</span></h1>
+                <h2 class="index-subtitle"><span class="highlight">Spring Boot Developer</span><br>& Figma Designer</h2>
+
+                <div class="mt-4">
+                    <a href="/portfolio" class="btn btn-custom-primary me-3">See Portfolio</a>
+                    <a href="/contact" class="btn btn-custom-outline">Contact Me</a>
+                </div>
+            </div>
+
+            <!-- Image Column -->
+            <div class="col-lg-5 col-md-12 text-center">
+                <div class="img-frame">
+                    <img src="/img/profile.jpg" alt="Profile Photo" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
