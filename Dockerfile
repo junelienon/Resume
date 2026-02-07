@@ -3,8 +3,8 @@ FROM maven:3.9.6-eclipse-temurin-21 AS build
 WORKDIR /app
 
 # COPY files relative to the build context (parent folder)
-COPY pom.xml .
-COPY src ./src
+COPY landing/pom.xml .
+COPY landing/src ./src
 
 # Build the jar without running tests
 RUN mvn clean package -DskipTests

@@ -12,6 +12,6 @@ spring:
             enable: true
         debug: true                    # debug is at the same level as smtp (not nested under starttls)
 server:
-  port: 8080
+  port: 8888
 
 
